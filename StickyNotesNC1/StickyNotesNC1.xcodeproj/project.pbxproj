@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60800D3D2B0E691500317246 /* StickyNotesNC1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D3C2B0E691500317246 /* StickyNotesNC1App.swift */; };
+		60800D3F2B0E691500317246 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D3E2B0E691500317246 /* ContentView.swift */; };
+		60800D432B0E691600317246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60800D422B0E691600317246 /* Assets.xcassets */; };
+		60800D462B0E691600317246 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60800D452B0E691600317246 /* Preview Assets.xcassets */; };
+		60800D502B0E691600317246 /* StickyNotesNC1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D4F2B0E691600317246 /* StickyNotesNC1Tests.swift */; };
+		60800D5A2B0E691600317246 /* StickyNotesNC1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D592B0E691600317246 /* StickyNotesNC1UITests.swift */; };
+		60800D5C2B0E691600317246 /* StickyNotesNC1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D5B2B0E691600317246 /* StickyNotesNC1UITestsLaunchTests.swift */; };
+		60800D692B0E80A100317246 /* colorManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D682B0E80A100317246 /* colorManagement.swift */; };
+		60800D6B2B0E80BB00317246 /* modelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D6A2B0E80BB00317246 /* modelContainer.swift */; };
+		60800D6D2B0E812F00317246 /* CreateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60800D6C2B0E812F00317246 /* CreateNoteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60800D4C2B0E691600317246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60800D312B0E691500317246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60800D382B0E691500317246;
+			remoteInfo = StickyNotesNC1;
+		};
+		60800D562B0E691600317246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60800D312B0E691500317246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60800D382B0E691500317246;
+			remoteInfo = StickyNotesNC1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60800D392B0E691500317246 /* StickyNotesNC1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyNotesNC1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60800D3C2B0E691500317246 /* StickyNotesNC1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNotesNC1App.swift; sourceTree = "<group>"; };
+		60800D3E2B0E691500317246 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60800D422B0E691600317246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60800D452B0E691600317246 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60800D4B2B0E691600317246 /* StickyNotesNC1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyNotesNC1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60800D4F2B0E691600317246 /* StickyNotesNC1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNotesNC1Tests.swift; sourceTree = "<group>"; };
+		60800D552B0E691600317246 /* StickyNotesNC1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyNotesNC1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60800D592B0E691600317246 /* StickyNotesNC1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNotesNC1UITests.swift; sourceTree = "<group>"; };
+		60800D5B2B0E691600317246 /* StickyNotesNC1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNotesNC1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60800D682B0E80A100317246 /* colorManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorManagement.swift; sourceTree = "<group>"; };
+		60800D6A2B0E80BB00317246 /* modelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelContainer.swift; sourceTree = "<group>"; };
+		60800D6C2B0E812F00317246 /* CreateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60800D362B0E691500317246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60800D482B0E691600317246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60800D522B0E691600317246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60800D302B0E691500317246 = {
+			isa = PBXGroup;
+			children = (
+				60800D682B0E80A100317246 /* colorManagement.swift */,
+				60800D3B2B0E691500317246 /* StickyNotesNC1 */,
+				60800D4E2B0E691600317246 /* StickyNotesNC1Tests */,
+				60800D582B0E691600317246 /* StickyNotesNC1UITests */,
+				60800D3A2B0E691500317246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60800D3A2B0E691500317246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60800D392B0E691500317246 /* StickyNotesNC1.app */,
+				60800D4B2B0E691600317246 /* StickyNotesNC1Tests.xctest */,
+				60800D552B0E691600317246 /* StickyNotesNC1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60800D3B2B0E691500317246 /* StickyNotesNC1 */ = {
+			isa = PBXGroup;
+			children = (
+				60800D6A2B0E80BB00317246 /* modelContainer.swift */,
+				60800D3C2B0E691500317246 /* StickyNotesNC1App.swift */,
+				60800D3E2B0E691500317246 /* ContentView.swift */,
+				60800D6C2B0E812F00317246 /* CreateNoteView.swift */,
+				60800D422B0E691600317246 /* Assets.xcassets */,
+				60800D442B0E691600317246 /* Preview Content */,
+			);
+			path = StickyNotesNC1;
+			sourceTree = "<group>";
+		};
+		60800D442B0E691600317246 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60800D452B0E691600317246 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60800D4E2B0E691600317246 /* StickyNotesNC1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				60800D4F2B0E691600317246 /* StickyNotesNC1Tests.swift */,
+			);
+			path = StickyNotesNC1Tests;
+			sourceTree = "<group>";
+		};
+		60800D582B0E691600317246 /* StickyNotesNC1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				60800D592B0E691600317246 /* StickyNotesNC1UITests.swift */,
+				60800D5B2B0E691600317246 /* StickyNotesNC1UITestsLaunchTests.swift */,
+			);
+			path = StickyNotesNC1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60800D382B0E691500317246 /* StickyNotesNC1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60800D5F2B0E691600317246 /* Build configuration list for PBXNativeTarget "StickyNotesNC1" */;
+			buildPhases = (
+				60800D352B0E691500317246 /* Sources */,
+				60800D362B0E691500317246 /* Frameworks */,
+				60800D372B0E691500317246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickyNotesNC1;
+			productName = StickyNotesNC1;
+			productReference = 60800D392B0E691500317246 /* StickyNotesNC1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60800D4A2B0E691600317246 /* StickyNotesNC1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60800D622B0E691600317246 /* Build configuration list for PBXNativeTarget "StickyNotesNC1Tests" */;
+			buildPhases = (
+				60800D472B0E691600317246 /* Sources */,
+				60800D482B0E691600317246 /* Frameworks */,
+				60800D492B0E691600317246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60800D4D2B0E691600317246 /* PBXTargetDependency */,
+			);
+			name = StickyNotesNC1Tests;
+			productName = StickyNotesNC1Tests;
+			productReference = 60800D4B2B0E691600317246 /* StickyNotesNC1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60800D542B0E691600317246 /* StickyNotesNC1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60800D652B0E691600317246 /* Build configuration list for PBXNativeTarget "StickyNotesNC1UITests" */;
+			buildPhases = (
+				60800D512B0E691600317246 /* Sources */,
+				60800D522B0E691600317246 /* Frameworks */,
+				60800D532B0E691600317246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60800D572B0E691600317246 /* PBXTargetDependency */,
+			);
+			name = StickyNotesNC1UITests;
+			productName = StickyNotesNC1UITests;
+			productReference = 60800D552B0E691600317246 /* StickyNotesNC1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60800D312B0E691500317246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					60800D382B0E691500317246 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					60800D4A2B0E691600317246 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 60800D382B0E691500317246;
+					};
+					60800D542B0E691600317246 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 60800D382B0E691500317246;
+					};
+				};
+			};
+			buildConfigurationList = 60800D342B0E691500317246 /* Build configuration list for PBXProject "StickyNotesNC1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60800D302B0E691500317246;
+			productRefGroup = 60800D3A2B0E691500317246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60800D382B0E691500317246 /* StickyNotesNC1 */,
+				60800D4A2B0E691600317246 /* StickyNotesNC1Tests */,
+				60800D542B0E691600317246 /* StickyNotesNC1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60800D372B0E691500317246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60800D462B0E691600317246 /* Preview Assets.xcassets in Resources */,
+				60800D432B0E691600317246 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60800D492B0E691600317246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60800D532B0E691600317246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60800D352B0E691500317246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60800D692B0E80A100317246 /* colorManagement.swift in Sources */,
+				60800D6B2B0E80BB00317246 /* modelContainer.swift in Sources */,
+				60800D6D2B0E812F00317246 /* CreateNoteView.swift in Sources */,
+				60800D3F2B0E691500317246 /* ContentView.swift in Sources */,
+				60800D3D2B0E691500317246 /* StickyNotesNC1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60800D472B0E691600317246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60800D502B0E691600317246 /* StickyNotesNC1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60800D512B0E691600317246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60800D5C2B0E691600317246 /* StickyNotesNC1UITestsLaunchTests.swift in Sources */,
+				60800D5A2B0E691600317246 /* StickyNotesNC1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60800D4D2B0E691600317246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60800D382B0E691500317246 /* StickyNotesNC1 */;
+			targetProxy = 60800D4C2B0E691600317246 /* PBXContainerItemProxy */;
+		};
+		60800D572B0E691600317246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60800D382B0E691500317246 /* StickyNotesNC1 */;
+			targetProxy = 60800D562B0E691600317246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60800D5D2B0E691600317246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60800D5E2B0E691600317246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60800D602B0E691600317246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyNotesNC1/Preview Content\"";
+				DEVELOPMENT_TEAM = Z993Z64L49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiomarciello.StickyNotesNC1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60800D612B0E691600317246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyNotesNC1/Preview Content\"";
+				DEVELOPMENT_TEAM = Z993Z64L49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiomarciello.StickyNotesNC1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60800D632B0E691600317246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z993Z64L49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiomarciello.StickyNotesNC1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickyNotesNC1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StickyNotesNC1";
+			};
+			name = Debug;
+		};
+		60800D642B0E691600317246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z993Z64L49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiomarciello.StickyNotesNC1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickyNotesNC1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StickyNotesNC1";
+			};
+			name = Release;
+		};
+		60800D662B0E691600317246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z993Z64L49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiomarciello.StickyNotesNC1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StickyNotesNC1;
+			};
+			name = Debug;
+		};
+		60800D672B0E691600317246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z993Z64L49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudiomarciello.StickyNotesNC1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StickyNotesNC1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60800D342B0E691500317246 /* Build configuration list for PBXProject "StickyNotesNC1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60800D5D2B0E691600317246 /* Debug */,
+				60800D5E2B0E691600317246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60800D5F2B0E691600317246 /* Build configuration list for PBXNativeTarget "StickyNotesNC1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60800D602B0E691600317246 /* Debug */,
+				60800D612B0E691600317246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60800D622B0E691600317246 /* Build configuration list for PBXNativeTarget "StickyNotesNC1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60800D632B0E691600317246 /* Debug */,
+				60800D642B0E691600317246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60800D652B0E691600317246 /* Build configuration list for PBXNativeTarget "StickyNotesNC1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60800D662B0E691600317246 /* Debug */,
+				60800D672B0E691600317246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60800D312B0E691500317246 /* Project object */;
+}
